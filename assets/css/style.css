@@ -135,11 +135,11 @@ a:active {
 /* footer */
 
 footer {
-  padding: 30px 0;
+  padding: 5px 0;
   clear: both;
-  font-size: 12px;
+  font-size: 16px;
   color: #ffffff;
-  color: #cccccc;
+  
   text-align: center;
   background: darkgreen;
   border-top: 8px solid darkred;
@@ -251,3 +251,7 @@ input[type=submit] {
   background: darkred;
   border: 0 none;
 }
+
+@media screen and (max-width: 980) {}
+@media screen and (max-width: 768) {}
+@media screen and (max-width: 640) {}
