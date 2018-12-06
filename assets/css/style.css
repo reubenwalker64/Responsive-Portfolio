@@ -6,7 +6,7 @@ body {
     line-height: 34px;
     text-align: left;
     color: rgb(94, 92, 92);
-    background-color: #fff;    
+    background-color: rgb(209, 207, 207);    
 }
 
 header {
@@ -18,6 +18,8 @@ img {
   float: left;
   margin-right: 10px;
 }
+
+
 
 /* custom css ends */
 
@@ -73,10 +75,10 @@ h3 {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin: auto;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
+  background: #fff;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -97,6 +99,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  margin-right: 60px;
 }
 
 nav a {
@@ -252,6 +255,74 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980) {}
-@media screen and (max-width: 768) {}
-@media screen and (max-width: 640) {}
+/*put parts to change with screen size below?*/
+
+@media screen and (max-width: 980px) {
+
+  body {
+    background-color: rgb(209, 207, 207);
+  }
+
+  #masthead {
+    margin-top: -8px;
+  }
+
+  .wrapper {
+    width: 650px;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+
+  body {
+    background-color: rgb(209, 207, 207);
+  }
+
+  img {
+    width: 50%;
+  }
+
+  #masthead {
+    margin-top: -8px;
+  }
+
+  .wrapper {
+    width: 100%
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+ 
+
+}
+@media screen and (max-width: 640px) {
+
+  body {
+    background-color: rgb(209, 207, 207);
+  }
+  img {
+    float: none;
+    width: 100%;
+  }
+
+  #masthead {
+    margin-top: -33px;
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+   
+  }
+
+  #logo {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
